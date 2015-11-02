@@ -1,0 +1,1290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <EntryPoints Location="Root">
+        <EntryPoint Location="8e18f78a-524b-4f43-bafc-38c11c66d3ab">
+            <Info File="utilities/set_up_project.m"
+                GroupUUID="c4082fbf-6ff8-4095-8815-a1d022e86257"
+                Name="Set Up Project" Type="StartUp"/>
+        </EntryPoint>
+        <EntryPoint Location="ea9cd3b6-f0ff-4f70-bba9-11acdd484cd9">
+            <Info File="utilities/clean_up_project.m"
+                GroupUUID="c4082fbf-6ff8-4095-8815-a1d022e86257"
+                Name="Clean Up Project" Type="Shutdown"/>
+        </EntryPoint>
+        <EntryPoint Location="8c2a8c3d-ee15-4a37-8b5a-7de70eeeef17">
+            <Info File="utilities/drive_sim/load_drive_sim.m"
+                GroupUUID="e26545c8-200f-466c-98f7-62ac691f3a53"
+                Name="load_drive_sim" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="82d2e8c1-ab71-4d9a-bd24-4435419e0618">
+            <Info File="utilities/experiment_setup/select_variables.fig"
+                GroupUUID="49881179-1611-4e08-b13d-a68822d81ebc"
+                Name="select_variables" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="9e94216c-3420-4ddb-b62b-63d33a3321c9">
+            <Info File="utilities/experiment/select_variables.m"
+                GroupUUID="49881179-1611-4e08-b13d-a68822d81ebc"
+                Name="select_variables" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="47d43f95-7e78-463e-b033-ee02339d924e">
+            <Info File="utilities/experiment/select_results.m"
+                GroupUUID="49881179-1611-4e08-b13d-a68822d81ebc"
+                Name="select_results" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="8f61cb93-5aac-452b-9e24-a6c403d982bd">
+            <Info File="guis/select_results.m"
+                GroupUUID="49881179-1611-4e08-b13d-a68822d81ebc"
+                Name="Experiment Run Configuration" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="4cc0f881-e5e6-4a5c-902a-afe7da250653">
+            <Info File="guis/load_data_inspector.m"
+                GroupUUID="49881179-1611-4e08-b13d-a68822d81ebc"
+                Name="Simulink Data Inspector" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="446d2b7c-4b7c-42a5-9b17-17473a14af58">
+            <Info File="utilities/load_component_backup.m"
+                GroupUUID="78c0a294-af16-42b5-960a-825bdfa324d4"
+                Name="Components" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="b8e5758d-f7e0-4d40-9b0e-ede76c007f9e">
+            <Info File="README.txt"
+                GroupUUID="3e0aecb1-0fe3-4bc8-8a2b-aa6c6cde3932"
+                Name="README" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="373ff288-3717-4dc6-bed1-846f591f3486">
+            <Info File="guis/select_variables.m"
+                GroupUUID="49881179-1611-4e08-b13d-a68822d81ebc"
+                Name="Test Bed Configuration" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="f441908d-e496-47cf-be64-0e9b24620a82">
+            <Info File="utilities/load_experiment_run_backup.m"
+                GroupUUID="78c0a294-af16-42b5-960a-825bdfa324d4"
+                Name="Experiment Runs" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="0cb061e0-6636-4ed8-ab7d-f4c3565ada4a">
+            <Info File="models/TestBed.slx"
+                GroupUUID="29992b82-33a4-47b6-a030-1afce519c960"
+                Name="TestBed" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="2690261a-102a-4f26-bd22-a6d14184e478">
+            <Info File="utilities/save_buses.m"
+                GroupUUID="0d2bb569-387a-49d9-af2a-6baebc56e03c"
+                Name="Buses" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="7ea22da9-5a01-4357-8e9b-71eacaa95cd9">
+            <Info File="utilities/save_model_configurations.m"
+                GroupUUID="0d2bb569-387a-49d9-af2a-6baebc56e03c"
+                Name="Model Configuration" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="82d7a049-a267-4656-9287-4d9830388ec5">
+            <Info File="utilities/save_components.m"
+                GroupUUID="0d2bb569-387a-49d9-af2a-6baebc56e03c"
+                Name="Components" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="2f2092b7-7d71-4b65-9ac2-1d5f9ef42c2f">
+            <Info File="utilities/save_experiment_runs.m"
+                GroupUUID="0d2bb569-387a-49d9-af2a-6baebc56e03c"
+                Name="Experiment Runs" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="b71af55f-6fbf-4f8f-9ee6-4054d63da2cf">
+            <Info File="utilities/load_model_configuration_backup.m"
+                GroupUUID="78c0a294-af16-42b5-960a-825bdfa324d4"
+                Name="Model Configurations" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="6525894e-30fb-4fa2-8996-b83b364de27c">
+            <Info File="utilities/load_bus_backup.m"
+                GroupUUID="78c0a294-af16-42b5-960a-825bdfa324d4"
+                Name="Buses" Type="Basic"/>
+        </EntryPoint>
+    </EntryPoints>
+    <Files Location="Root">
+        <File Location="src">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="data">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="model_configurations.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="buses.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="@VariantManager">
+                <File Location="SetGsq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="IsRealAtmSet.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetVirtuellHardware.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetEq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="SetEms.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetDriveSim.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="InitModeAndNull.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetAtm.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetEms.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetLast.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetDriveSim.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="VariantManager.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetGsq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetHardwareIo.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetVirtuellHardware.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetLast.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetEq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="IsRealEqSet.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetHardwareIo.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="Initialize.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetAtm.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveHardwareIo.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveEms.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveLast.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetAllActive.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveVariant.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetDocumentationFilePath.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveAtm.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveEq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveGsq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveDriveSim.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetActiveVirtuellHardware.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetVariant.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetTypes.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveEms.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveGsq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="IsRealGsqSet.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="IsRealLastSet.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="HasSubType.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveVirtuellHardware.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="StructureCheck.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetSubTypes.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetVariants.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetAllNull.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveEq.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveHardwareIo.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveDriveSim.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveLast.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GetVariantList.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SetActiveAtm.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="@ExperimentRun">
+                <File Location="ExperimentRun.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+            <File Location="@ComponentManager">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="ComponentManager.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="@ExperimentRunManager">
+                <File Location="ExperimentRunManager.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="@ModelVariable">
+                <File Location="ModelVariable.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+            <File Location="@Variant">
+                <File Location="Variant.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+            <File Location="@Component">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="Component.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+        </File>
+        <File Location="utilities">
+            <File Location="set_up_project.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <File Location="project_paths.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="clean_up_project.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="load_parameters.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="model_configuration_variables.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="bus_variables.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="clean_up_paths.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="save_parameters.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="load_component_backup.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="save_buses.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="save_model_configurations.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="load_experiment_run_backup.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="save_experiment_runs.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="save_components.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="load_bus_backup.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="load_model_configuration_backup.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="models">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="drive_sim">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="DriveSimV8.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="v8_library">
+                    <File Location="MotorLib.mdl">
+                        <Info>
+                            <Category UUID="FileClassCategory">
+                                <Label UUID="design"/>
+                            </Category>
+                        </Info>
+                    </File>
+                    <DIR_SIGNIFIER Location="1">
+                        <Info/>
+                    </DIR_SIGNIFIER>
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="none"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="DriveSimNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="DriveSimV9.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <File Location="ems">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="EmsNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EmsM2Eq5.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="hardware">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="LastBimaq.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="AtmBimaq.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EqHtuc.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AtmNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EqHzl.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EqNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GsqNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GsqBimaq.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="HardwareIoNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="HardwareIoRti1103.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="LastNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="virtuell_hardware">
+                <File Location="VirtuellHardwareDemuxM2Eq5.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="EqVirtuellNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="VirtuellHardwareMuxM2Eq5.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AtmLastVirtuellNull.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="AtmLastVirtuellSimple.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AtmLastVirtuellBimaqTest.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EqVirtuellSimple.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="TestBed.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="saturation_callback">
+                <File Location="SaturationCallbackVariant.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="SaturationCallbackSubType.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SaturationCallback.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SaturationCallbackVariable.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SaturationCallbackType.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="SaturationCallbackSelection.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <File Location="real_hardware">
+                <File Location="RealHardwareControlNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="RealHardwareNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+        </File>
+        <File Location="tests">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+        </File>
+        <File Location="guis">
+            <File Location="get_new_name.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="edit_variable_setup.fig">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="select_results.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="new_experiment_run.fig">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="select_results.fig">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="new_experiment_run.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="get_new_name.fig">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="select_variables.fig">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="edit_variable_setup.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <File Location="load_data_inspector.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="select_variables.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="component_documentation.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="bimaq_logo.png">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="component_documentation.fig">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="README.txt">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="other"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="work">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="backup">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="users">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <File Location="mcu">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="McuSimplePreview.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+                <File Location="McuSimpleEvaluation.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="McuSimpleSdiRunEdit.m">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+        </File>
+    </Files>
+    <ProjectData Location="Root"/>
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+            <Label Location="design">
+                <Info Name="Design"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None"/>
+            </Label>
+        </Category>
+        <Category Location="ReviewCategory">
+            <Info DataType="String" Name="Review" ReadOnly="1" SingleValued="1"/>
+            <Label Location="toReview">
+                <Info Name="To Review"/>
+            </Label>
+            <Label Location="approved">
+                <Info Name="Approved"/>
+            </Label>
+            <Label Location="rejected">
+                <Info Name="Rejected"/>
+            </Label>
+            <Label Location="needMoreInfo">
+                <Info Name="More Information Required"/>
+            </Label>
+        </Category>
+    </Categories>
+    <Extensions Location="Root"/>
+    <Info Location="ProjectData">
+        <Info Name="Versuchsstand"/>
+    </Info>
+    <Root Location="Extensions">
+        <Extension Location="Information">
+            <Info description="None"/>
+        </Extension>
+        <Extension Location="DependencyAnalysis">
+            <Extension Location="ExternalFiles">
+                <Info File0="/home/moritz/Dokumente/UniBremen/Masterthesis/Versuchsstand/Bimaq-Versuchsstand-push/MatlabSimulink/data/@ComponentConfig/ComponentConfig.m"/>
+            </Extension>
+        </Extension>
+    </Root>
+    <EntryPointGroups Location="Root">
+        <EntryPointGroup Location="c4082fbf-6ff8-4095-8815-a1d022e86257">
+            <Info Name="Startup &amp; Shutdown"/>
+        </EntryPointGroup>
+        <EntryPointGroup Location="29992b82-33a4-47b6-a030-1afce519c960">
+            <Info Name="Top Level Model"/>
+        </EntryPointGroup>
+        <EntryPointGroup Location="0d2bb569-387a-49d9-af2a-6baebc56e03c">
+            <Info Name="Save"/>
+        </EntryPointGroup>
+        <EntryPointGroup Location="49881179-1611-4e08-b13d-a68822d81ebc">
+            <Info Name="GUI"/>
+        </EntryPointGroup>
+        <EntryPointGroup Location="78c0a294-af16-42b5-960a-825bdfa324d4">
+            <Info Name="Restore Backup"/>
+        </EntryPointGroup>
+        <EntryPointGroup Location="3e0aecb1-0fe3-4bc8-8a2b-aa6c6cde3932">
+            <Info Name="Documentation"/>
+        </EntryPointGroup>
+    </EntryPointGroups>
+</project>

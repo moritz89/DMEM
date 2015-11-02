@@ -1,0 +1,7 @@
+*~
+*.r20*
+*.autosave
+*.original
+*.mdl
+work/
+backup/

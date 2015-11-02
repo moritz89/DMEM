@@ -1,0 +1,378 @@
+Model {
+  Name			  "EmsUnbesetzt"
+  Version		  8.4
+  MdlSubVersion		  0
+  SavedCharacterEncoding  "windows-1252"
+  GraphicalInterface {
+    NumRootInports	    2
+    Inport {
+      Name		      "HARDWARE_INPUT_BUS_DCI"
+      BusObject		      "HARDWARE_INPUT_BUS"
+    }
+    Inport {
+      Name		      "HARDWARE_OUTPUT_BUS"
+      BusObject		      "HARDWARE_OUTPUT_BUS"
+    }
+    NumRootOutports	    1
+    Outport {
+      Name		      "HARDWARE_INPUT_BUS_DCO"
+      BusObject		      "HARDWARE_INPUT_BUS"
+      BusOutputAsStruct	      "on"
+    }
+    ParameterArgumentNames  ""
+    ComputedModelVersion    "1.17"
+    NumModelReferences	    0
+    NumTestPointedSignals   0
+  }
+  PostLoadFcn		  ", if any(exist('dsrtsu_mdlpostloadfcn', 'file') == [2, 3, 6]), try dsrtsu_mdlpostloadfcn('Execute', "
+  "bdroot); catch fprintf('Error in PostLoadFcn (dsrtsu_mdlpostloadfcn) for model \"%s\":\\n %s\\n', bdroot, lasterr); "
+  "end, end, \n"
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  DataTypeOverride	  "UseLocalSettings"
+  DataTypeOverrideAppliesTo "AllNumericTypes"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  UserBdParams		  "DSRTSU_INTERNAL_RTI_VER;DSRTSU_INTERNAL_RTI_TYPE"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [308.0, 24.0, 1273.0, 1027.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Object {
+	$PropName		"EditorsInfo"
+	$ObjectID		5
+	$ClassName		"Simulink.EditorInfo"
+	IsActive		[1]
+	ViewObjType		"SimulinkTopLevel"
+	LoadSaveID		"0"
+	Extents			[1217.0, 836.0]
+	ZoomFactor		[1.25]
+	Offset			[0.0, 0.0]
+      }
+    }
+  }
+  DSRTSU_INTERNAL_RTI_VER "400"
+  DSRTSU_INTERNAL_RTI_TYPE "rti1103"
+  Created		  "Mon Jun 10 08:47:47 2013"
+  Creator		  "DIT"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "moritz"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Tue Jan 27 16:19:53 2015"
+  RTWModifiedTimeStamp	  344276390
+  ModelVersionFormat	  "1.%<AutoIncrement:17>"
+  ConfigurationManager	  "none"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  SortedOrder		  off
+  ExecutionContextIcon	  off
+  ShowLinearizationAnnotations on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  Object {
+    $PropName		    "DataLoggingOverride"
+    $ObjectID		    6
+    $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
+    model_		    "EmsUnbesetzt"
+    overrideMode_	    [0.0]
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      "EmsUnbesetzt"
+      PropName		      "logAsSpecifiedByModels_"
+    }
+    Array {
+      Type		      "Cell"
+      Dimension		      1
+      Cell		      []
+      PropName		      "logAsSpecifiedByModelsSSIDs_"
+    }
+  }
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  CovForceBlockReductionOff on
+  CovEnableCumulative	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  CovReportOnPause	  on
+  CovModelRefEnable	  "Off"
+  CovExternalEMLEnable	  off
+  CovSFcnEnable		  off
+  CovBoundaryAbsTol	  0.000010
+  CovBoundaryRelTol	  0.010000
+  CovUseTimeInterval	  off
+  CovStartTime		  0
+  CovStopTime		  0
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSetRef {
+      $ObjectID		      7
+      Version		      "1.14.3"
+      Name		      "Reference"
+      DDName		      ""
+      WSVarName		      "SIMULATION_CONFIGURATION"
+      SourceLocation	      "Base Workspace"
+    }
+    PropName		    "ConfigurationSets"
+  }
+  Simulink.ConfigSetRef {
+    $PropName		    "ActiveConfigurationSet"
+    $ObjectID		    7
+  }
+  Object {
+    $PropName		    "DataTransfer"
+    $ObjectID		    8
+    $ClassName		    "Simulink.GlobalDataTransfer"
+    DefaultTransitionBetweenSyncTasks "Ensure deterministic transfer (maximum delay)"
+    DefaultTransitionBetweenAsyncTasks "Ensure data integrity only"
+    DefaultTransitionBetweenContTasks "Ensure deterministic transfer (minimum delay)"
+    DefaultExtrapolationMethodBetweenContTasks "None"
+    AutoInsertRateTranBlk   [0]
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    UseDisplayTextAsClickCallback off
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "on"
+    RunInitForIconRedraw    "off"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Inport
+      Port		      "1"
+      OutputFunctionCall      off
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      LatchByDelayingOutsideSignal off
+      LatchInputForFeedbackSignals off
+      Interpolate	      on
+    }
+    Block {
+      BlockType		      Outport
+      Port		      "1"
+      OutMin		      "[]"
+      OutMax		      "[]"
+      OutDataTypeStr	      "Inherit: auto"
+      LockScale		      off
+      BusOutputAsStruct	      off
+      PortDimensions	      "-1"
+      VarSizeSig	      "Inherit"
+      SampleTime	      "-1"
+      SignalType	      "auto"
+      SamplingMode	      "auto"
+      SourceOfInitialOutputValue "Dialog"
+      OutputWhenDisabled      "held"
+      InitialOutput	      "[]"
+    }
+    Block {
+      BlockType		      Terminator
+    }
+  }
+  System {
+    Name		    "EmsUnbesetzt"
+    Location		    [308, 24, 1581, 1051]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    TiledPaperMargins	    [1.270000, 1.270000, 1.270000, 1.270000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "125"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "76"
+    Block {
+      BlockType		      Inport
+      Name		      "HARDWARE_INPUT_BUS_DCI"
+      SID		      "1"
+      Position		      [160, 43, 190, 57]
+      ZOrder		      -1
+      IconDisplay	      "Port number"
+      OutDataTypeStr	      "Bus: HARDWARE_INPUT_BUS"
+    }
+    Block {
+      BlockType		      Inport
+      Name		      "HARDWARE_OUTPUT_BUS"
+      SID		      "3"
+      Position		      [160, 78, 190, 92]
+      ZOrder		      -1
+      Port		      "2"
+      IconDisplay	      "Port number"
+      OutDataTypeStr	      "Bus: HARDWARE_OUTPUT_BUS"
+    }
+    Block {
+      BlockType		      Terminator
+      Name		      "Terminator"
+      SID		      "76"
+      Position		      [350, 75, 370, 95]
+      ZOrder		      2
+    }
+    Block {
+      BlockType		      Outport
+      Name		      "HARDWARE_INPUT_BUS_DCO"
+      SID		      "2"
+      Position		      [735, 43, 765, 57]
+      ZOrder		      -26
+      IconDisplay	      "Port number"
+      OutDataTypeStr	      "Bus: HARDWARE_INPUT_BUS"
+      BusOutputAsStruct	      on
+    }
+    Line {
+      ZOrder		      9
+      SrcBlock		      "HARDWARE_OUTPUT_BUS"
+      SrcPort		      1
+      DstBlock		      "Terminator"
+      DstPort		      1
+    }
+    Line {
+      ZOrder		      7
+      SrcBlock		      "HARDWARE_INPUT_BUS_DCI"
+      SrcPort		      1
+      DstBlock		      "HARDWARE_INPUT_BUS_DCO"
+      DstPort		      1
+    }
+  }
+}
