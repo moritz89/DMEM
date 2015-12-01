@@ -1,0 +1,4 @@
+//>>built
+define("webview/nls/webview_pt-br",{"webview/resources/slreportgen_webview/nls/modelbrowser":{OpenInNewTab:"Open In New Tab",Title:"Model Browser",_localized:{},Open:"Open"},"webview/resources/slreportgen_webview/nls/modelinspector":{_localized:{},ParameterAttributes:"Parameter Attributes"},"dijit/nls/loading":{_localized:{},loadingState:"Carregando...",errorState:"Desculpe, ocorreu um erro"},"webview/resources/slreportgen_webview/nls/modelviewer":{MarqueeZoomButtonLabel:"Zoom",FitToViewButtonLabel:"Fit to View",
+Open:"Open",ViewAll:"View All",OpenInNewTab:"Open In New Tab",_localized:{},NoExport:"This system was not exported.",ExplorerBarButtonLabel:"Hide/Show Explorer Bar",ModelBrowserButtonLabel:"Hide/Show Model Browser"},"dijit/nls/common":{buttonOk:"OK",buttonCancel:"Cancelar",_localized:{},buttonSave:"Salvar",itemClose:"Fechar"}});
+//# sourceMappingURL=webview_pt-br.js.map

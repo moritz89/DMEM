@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny" display="inline" height="224.000000px" preserveAspectRatio="xMinYMin meet" viewBox="10.35 12.00 559.61 224.00" width="559.609375px" x="0" y="0" zoomAndPan="disable">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient1">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient2">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient3">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient4">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient5">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient6">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient7">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1" id="gradient8">
+      <stop offset="0.3" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#d9d9d9" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel">
+    <g id="background" pointer-events="none">
+      <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+        <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M16.3516,18 L563.961,18 L563.961,230 L16.3516,230 L16.3516,18z "/>
+      </g>
+    </g>
+    <g id="DriveSimV9:5214">
+      <g data-tags="Text">
+        <g id="DriveSimV9:5248">
+          <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,98,190)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M-81.6484,-40 L81.6484,-40 L81.6484,40 L-81.6484,40 L-81.6484,-40z "/>
+          </g>
+          <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,16.3516,150)" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip472)">
+            <defs>
+              <clipPath id="clip472">
+                <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M0,-132 L547.609,-132 L547.609,80 L0,80 L0,-132z "/>
+              </clipPath>
+            </defs>
+            <text textLength="138.688" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="12.2969" y="11" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">Es wird die Sollgeschwindigkeit</text>
+            <text textLength="129" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="18.9531" y="24" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">zur aktuellen Zykluszeit des</text>
+            <text textLength="153.125" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="5.07812" y="37" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">gewählten Zyklusses ausgegeben.</text>
+            <text textLength="125" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="19.7969" y="50" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">Die Zeit wird im Subsystem</text>
+            <text textLength="160.297" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="1.5" y="63" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">Zeitgeber bestimmt und dort zurück-</text>
+            <text textLength="36" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="64.1719" y="76" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">gesetzt</text>
+          </g>
+        </g>
+      </g>
+      <g data-tags="Text">
+        <g id="DriveSimV9:5250">
+          <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,255,28)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M-119.539,-10 L119.539,-10 L119.539,10 L-119.539,10 L-119.539,-10z "/>
+          </g>
+          <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,135.461,18)" font-family="Arial" font-size="16" font-weight="700" font-style="normal" clip-path="url(#clip473)">
+            <defs>
+              <clipPath id="clip473">
+                <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-119.109,0 L428.5,0 L428.5,212 L-119.109,212 L-119.109,0z "/>
+              </clipPath>
+            </defs>
+            <text textLength="235.078" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="2" y="16" font-family="Arial" font-size="16" font-weight="700" font-style="normal">M1 A Vorgabe Geschwindigkeit</text>
+          </g>
+        </g>
+      </g>
+      <g data-tags="blk">
+        <g id="DriveSimV9:5247">
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,519,107)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" opacity="0.65098">
+            <image x="0" y="0" width="41" height="25" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAZCAYAAACsGgdbAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAgRJREFUWIXtl1tTGkEQhb+9sAYT1Eq0oi/xJf//PyWVi6UmEZGwgIQ8zOnadndAd4HkhVN1aofLTh+6z043CU1kQA70HAu9lwFJ5J51WAJ/gLk4c+tHYPHcBkltXQCvgD5wCLzWtS+x6YYiJ8BvcazXpYQvnxOZAAcSNQCOxRPgSMJ7dM/kQiJL4B64A4biSIKnq4TmuhYSeAK8BU7FM4ncZibvgVvgRnEz973pKpEZIVMDCTwHLsT3K0S2ERrLpFXHkrQg+DPq0VzsE8p7KnEfgEsJ3ka565l84wQ+EjxZilGRPcLD4UVeAh+dyK6ZNI/VMzlwAkuCJ0fAA5GSm0jz4xmhxOfiOwnskkHcPWarntZLiRpRPUi/9HkDvtyDCPtUZdkUSSTW0UtipYRfWDgeuHUWu2lD1ON5RuOlazbrUt6dICWYehbhlBe0rA7w8aa1mNF4KeEJm/DUyLae6POVLasFlpFYnharARsmvA+9N80O9WOnzRFkh/mMcNTcAVfAZ+AL8FWvf0jsrL5JTji/xoQ+esPTTjBiN23xCvgEfFPMIWHomMc2yKlKMKQaydD7D2x3wDCR1xL4ndDHh6wpd64NSkLW7AiwTmB9dlcDxi3wU7GjLdFEQuUXaPrnX41qDS8a/tfQO9a11dDrUf/7UFD13E0yadPOnJZ/H/bYY48O+AvNnteA29AYJgAAAABJRU5ErkJggg=="/>
+          </g>
+          <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,520,108)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="nonzero" d="M7,0 L23,0 C26.866,0 30,3.13401 30,7 C30,10.866 26.866,14 23,14 L7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 z "/>
+          </g>
+          <g data-tags="blk">
+            <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,520,108)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip474)">
+              <defs>
+                <clipPath id="clip474">
+                  <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,14 L0,14 L0,0z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,535,115)" font-family="Arial" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip475)">
+              <defs>
+                <clipPath id="clip475">
+                  <path vector-effect="none" fill-rule="evenodd" d="M-15,-7 L15,-7 L15,7 L-15,7 L-15,-7z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,535,115)" font-family="Arial" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip475)">
+              <text textLength="6" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="-3" y="3" font-family="Arial" font-size="10" font-weight="400" font-style="normal">1</text>
+            </g>
+          </g>
+          <g data-tags="blk frame">
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,520,108)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="nonzero" d="M7,0 L23,0 C26.866,0 30,3.13401 30,7 C30,10.866 26.866,14 23,14 L7,14 C3.13401,14 0,10.866 0,7 C0,3.13401 3.13401,0 7,0 z "/>
+            </g>
+          </g>
+          <g data-tags="blk BlockName">
+            <g fill="none" stroke="none" transform="matrix(1,0,0,1,535,124)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M-28.9609,0 L28.9609,0 L28.9609,15 L-28.9609,15 L-28.9609,0z "/>
+            </g>
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,506.039,124)" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip476)">
+              <defs>
+                <clipPath id="clip476">
+                  <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-489.688,-106 L57.9219,-106 L57.9219,106 L-489.688,106 L-489.688,-106z "/>
+                </clipPath>
+              </defs>
+              <text textLength="54.9219" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="1.5" y="11" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">v_soll in m/s</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g data-tags="blk">
+        <g id="DriveSimV9:5241">
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,234,103)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" opacity="0.65098">
+            <image x="0" y="0" width="101" height="33" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAAAhCAYAAADAtWW1AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAUVJREFUaIHt2rFuwjAUheGfKu1ABhjahaVT3/+ZWFjK4AwwwNLh2orjJIXBRFdwPunKVqbIR9dB2CvgvaiPbC71XGNdsnmqgQZb/DXQFuN6oZd9FedYp2KcDaUFNsA2VppLPQHo4hjis1EgMOyULfAV6zOOUs8vcKT/LFyxbhlpsG9ISx/KLiupp8XWGiyQM9Y5I3mnbLAO2QHfsaSe1CEXrEMCMz+mpravFMrPw1/z9aQtq8O2s8lQ3pZ8I7mPQnFIoTikUBxSKA4pFIcUikMKxSGF4pBCcUihOKRQHFIoDikUhxSKQw39KVjA/uNv0U2WR9gDB2yNAzOXJmAYSoedIedHllLPIdYRW+t/Q5k6nkzPpJ50cSJ1yglb55Fy+4LhkaXUU14xurl9pa4ovy9Sz9RlvMlQVuja6lLuvrYqIiIiT+wPYotfNX/0vccAAAAASUVORK5CYII="/>
+          </g>
+          <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,235,104)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L90,0 L90,22 L0,22 L0,0z "/>
+          </g>
+          <g data-tags="blk">
+            <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,235,104)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip477)">
+              <defs>
+                <clipPath id="clip477">
+                  <path vector-effect="none" fill-rule="evenodd" d="M0,0 L90,0 L90,22 L0,22 L0,0z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip478)">
+              <defs>
+                <clipPath id="clip478">
+                  <path vector-effect="none" fill-rule="evenodd" d="M234.5,103.5 L324.5,103.5 L324.5,125.5 L234.5,125.5 L234.5,103.5z "/>
+                </clipPath>
+              </defs>
+              <polyline fill="none" vector-effect="none" points="238,123 246,107 "/>
+            </g>
+            <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip478)">
+              <polyline fill="none" vector-effect="none" points="246,107 314,107 "/>
+            </g>
+            <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0.5,0.5)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip478)">
+              <polyline fill="none" vector-effect="none" points="314,107 322,123 "/>
+            </g>
+          </g>
+          <g data-tags="blk frame">
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,235,104)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M0,0 L90,0 L90,22 L0,22 L0,0z "/>
+            </g>
+          </g>
+          <g data-tags="blk BlockName">
+            <g fill="none" stroke="none" transform="matrix(1,0,0,1,280,128)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M-17.8594,0 L17.8594,0 L17.8594,15 L-17.8594,15 L-17.8594,0z "/>
+            </g>
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,262.141,128)" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip479)">
+              <defs>
+                <clipPath id="clip479">
+                  <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-245.789,-110 L301.82,-110 L301.82,102 L-245.789,102 L-245.789,-110z "/>
+                </clipPath>
+              </defs>
+              <text textLength="32.7188" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="1.5" y="11" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">VSoll(t)</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g data-tags="blk">
+        <g id="DriveSimV9:5219">
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,84,44)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" opacity="0.65098">
+            <image x="0" y="0" width="76" height="81" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABRCAYAAAB430BuAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAihJREFUeJztnL1OwzAYRQ+oMDQDDLB0YaEPw8vAs5SXgXcpC0sXGNIBBhhgsK3mr9BL1NDW90ifHFVQnJNrYynSdwScNOq0cp0Ln7E+KtepaowIYsZA0RjHA012F3iP9dYY1worgDPgPFa6zoUSWMaxjJ+1ZEE9YefAZayLOObCC/DKahv6JKSsxYiwZxWshE0qlQsFwQMEWe+ExLWoJuyMkKwJcBUrF1KyPgjJKlnzT69rSSZh061Pc7dIy3BJWKKdwo6HnNEhYGEiFiZiYSIWJmJhIhYmYmEiFiZiYSIWJrKJsDnwANxveS5DcE+4l/lfv8AJE7EwEQsTGYk//+e1fyiowp62Mos9wgkTyS1h132/ILeEDS5s3xPWGwsT8TlMxMJELEzEwkQsTMTCRCxMxMJE1IPrjHB4ncex6yB7HWvaMVL53Tlwp0/5f1GFbXKDSeSjPp3ezGg/IKg/pF6ownad3x7orO8fUPewrz2v3njTF7EwEQsTsTARCxOxMBELE8ntrVFv/BJExAkTyS1hfvMt4jffQ2NhIj6HiViYiIWJWJiIhYlYmIiFiWxyDpvGugFutzud3ccJE7EwEQsTsTARCxOxMBELExmx6shWEvpmFeTVYRPgGVgQ7r9kTcNIqAtbEvoAVlvb5cIi1ivBw4/CutrYpc9yITWNTAl7Izho0VySUG9tlwvNtqS/LsmUpuZ+lgtdjW87hR3h1sogtFY2xhiTEd/dhLDUUF/mPQAAAABJRU5ErkJggg=="/>
+          </g>
+          <g fill="url(#gradient1)" stroke="none" transform="matrix(1,0,0,1,85,45)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L65,0 L65,70 L0,70 L0,0z "/>
+          </g>
+          <g data-tags="blk">
+            <g fill="url(#gradient2)" stroke="none" transform="matrix(1,0,0,1,85,45)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip480)">
+              <defs>
+                <clipPath id="clip480">
+                  <path vector-effect="none" fill-rule="evenodd" d="M0,0 L65,0 L65,70 L0,70 L0,0z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="url(#gradient3)" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,147,80)" font-family="Arial" font-size="9" font-weight="400" font-style="normal" clip-path="url(#clip481)">
+              <defs>
+                <clipPath id="clip481">
+                  <path vector-effect="none" fill-rule="evenodd" d="M-62,-35 L3,-35 L3,35 L-62,35 L-62,-35z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="url(#gradient4)" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,147,80)" font-family="Arial" font-size="9" font-weight="400" font-style="normal" clip-path="url(#clip481)">
+              <text textLength="43" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="-43" y="3" font-family="Arial" font-size="9" font-weight="400" font-style="normal">t_loop in s</text>
+            </g>
+          </g>
+          <g data-tags="blk frame">
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,85,45)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M0,0 L65,0 L65,70 L0,70 L0,0z "/>
+            </g>
+          </g>
+          <g data-tags="blk BlockName">
+            <g fill="none" stroke="none" transform="matrix(1,0,0,1,117.5,117)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M-40.8281,0 L40.8281,0 L40.8281,15 L-40.8281,15 L-40.8281,0z "/>
+            </g>
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,76.6719,117)" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip482)">
+              <defs>
+                <clipPath id="clip482">
+                  <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-60.3203,-99 L487.289,-99 L487.289,113 L-60.3203,113 L-60.3203,-99z "/>
+                </clipPath>
+              </defs>
+              <text textLength="77.6562" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="2" y="11" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">M1_AA Zeitgeber</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g data-tags="blk">
+        <g id="DriveSimV9:5217">
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,409,99)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" opacity="0.65098">
+            <image x="0" y="0" width="41" height="41" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAApCAYAAACoYAD2AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAUFJREFUWIXtmLFOwzAQhr+i0CEZygBLF6Y+DC/Dw/RleJhOLF3okAzt0C4MviOucQAZH6jVfdLJVlTrPv1Oht4MuE1qHu0tOUkdo73WGY3ItECXrK2x5EFqn6yTkh2wAO6kdG9JDwyy9vLsk2As2YrUg9S9rJa8ATvG1+pESDMrOSckqZLLqCzppLcKHgjJZiU1yQUhwSXwKGWJJngkJNgz8bHmrlslV8aSMF7xQLj+rOTNH4j8GpeshUvWwiVrcTWSG+AFWBf2WMv5TeH560ny33HJWrhkLZof/GYl9VTY47nw3AcXkaRL1sIla+GStWgYpwc94b9vh/1EDeAV2ErPnolhVSo5EGYz8ejDkq3UTnp/KZkbc+gzS3RgpUnupW9WMr5uOB99WJKO/r69bk0tfT8tyQ1Rs5IzLmAc7ThOAe+EimSQov6YVQAAAABJRU5ErkJggg=="/>
+          </g>
+          <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,410,100)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,30 L0,30 L0,0z "/>
+          </g>
+          <g data-tags="blk">
+            <g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,410,100)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip483)">
+              <defs>
+                <clipPath id="clip483">
+                  <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,30 L0,30 L0,0z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,425,115)" font-family="Arial" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip484)">
+              <defs>
+                <clipPath id="clip484">
+                  <path vector-effect="none" fill-rule="evenodd" d="M-15,-15 L15,-15 L15,15 L-15,15 L-15,-15z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="#ffffff" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,425,115)" font-family="Arial" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip484)">
+              <text textLength="12" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="-6" y="3" font-family="Arial" font-size="10" font-weight="400" font-style="normal">|u|</text>
+            </g>
+          </g>
+          <g data-tags="blk frame">
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,410,100)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M0,0 L30,0 L30,30 L0,30 L0,0z "/>
+            </g>
+          </g>
+          <g data-tags="blk BlockName">
+            <g fill="none" stroke="none" transform="matrix(1,0,0,1,425,132)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M-10.1016,0 L10.1016,0 L10.1016,15 L-10.1016,15 L-10.1016,0z "/>
+            </g>
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,414.898,132)" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip485)">
+              <defs>
+                <clipPath id="clip485">
+                  <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-398.547,-114 L149.062,-114 L149.062,98 L-398.547,98 L-398.547,-114z "/>
+                </clipPath>
+              </defs>
+              <text textLength="17.2031" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="1.5" y="11" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">Abs</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g data-tags="blk">
+        <g id="DriveSimV9:5216">
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,239,54)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" opacity="0.65098">
+            <image x="0" y="0" width="86" height="31" preserveAspectRatio="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAfCAYAAAB9ATpTAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAndJREFUaIHtmtty2jAURZeBhHJJKSSTttP//7C+5KWZBtJAIAHSh61TScYQgmmnEdozZ2SML3h56+iMRMFxVABnpTh3bdN9n4KeXTwF2xaRWjVvVLhrtIGui55rOwhu3Xv8T5q5mJbao4EtkBPbCOAF8BH4BAwQ3I77PiXHjoGJa8du3wZUOAxsCzmxA/QRyCFwCYwQ4D7esSmB/QHcohQHgjqtOvAtYJt4oD1ioJfAlftcBtsiHbA99EwgqDPk4A3tA7aJ3pABtS5vMMN2iICn6lhz6hNy6jjYF2kX2IY76QObQKugbksFKTkWfPefoNSwN1gD2kZAL4iBVkEdETvVBq3GsZ7mvSkEa7WolU4GdETsyhBqCLTrzm1xwkBN1k3DWrSPB1ru6uH2AME3oGdkoH9kYM/xI7059DPwhc1uP0B5tIvyrzk0pTxaW2EqaOABD4Fr4BvwFUEeIof2EFBzaAZaoW2DVxulhCFxKWV1XEol1F/Raznx5Z/8igRV5dg1sAAeUAHcQS9gjQrjnAr2UAjWwD0Ad6jLFwjyL1QQj1DFkAevV9R07QsCuwKW+DnHOfAYtAu3f+mOXbvzC04D7s8dEcnArvETtgs8SIs5MeS5O7YKsEWKejNYU+jYEPCM2LllBxtcG+xSBXwwWBCcFT4dlAGX4ZqDDfCKGHBKKWJvsLtmt6w6WLr2EQ1s92hwq4rUpw2/AzdoVmvMlmUZ2G8+1lz4jJw5Q1XCvbt4GWzK04Y3Lm5RlVQLrGmFXFsGPOF0HGtLM+bYKUqBGzpkzcsqASvHpgjwmNNbTNzq2LoPnJe//b5Ix3JS/sNGVlZWVlbWe9dvEkvejmPPBAUAAAAASUVORK5CYII="/>
+          </g>
+          <g fill="#e8d152" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,240,55)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="nonzero" d="M18.75,0 L75,0 L75,20 L18.75,20 L0,10 L18.75,0z "/>
+          </g>
+          <g data-tags="blk">
+            <g fill="#e8d152" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,240,55)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal" clip-path="url(#clip486)">
+              <defs>
+                <clipPath id="clip486">
+                  <path vector-effect="none" fill-rule="evenodd" d="M0,0 L75,0 L75,20 L0,20 L0,0z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="#e8d152" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,286,64)" font-family="Arial" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip487)">
+              <defs>
+                <clipPath id="clip487">
+                  <path vector-effect="none" fill-rule="evenodd" d="M-46,-9 L29,-9 L29,11 L-46,11 L-46,-9z "/>
+                </clipPath>
+              </defs>
+            </g>
+            <g fill="#e8d152" fill-opacity="1" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,286,64)" font-family="Arial" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip487)">
+              <text textLength="45" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="-22.5" y="3" font-family="Arial" font-size="10" font-weight="400" font-style="normal">Zykluszeit</text>
+            </g>
+          </g>
+          <g data-tags="blk frame">
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,240,55)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="nonzero" d="M18.75,0 L75,0 L75,20 L18.75,20 L0,10 L18.75,0z "/>
+            </g>
+          </g>
+          <g data-tags="blk BlockName">
+            <g fill="none" stroke="none" transform="matrix(1,0,0,1,277.5,77)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+              <path vector-effect="none" fill-rule="evenodd" d="M-61.6875,0 L61.6875,0 L61.6875,15 L-61.6875,15 L-61.6875,0z "/>
+            </g>
+            <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,215.812,77)" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal" clip-path="url(#clip488)">
+              <defs>
+                <clipPath id="clip488">
+                  <path vector-effect="non-scaling-stroke" fill-rule="evenodd" d="M-199.461,-59 L348.148,-59 L348.148,153 L-199.461,153 L-199.461,-59z "/>
+                </clipPath>
+              </defs>
+              <text textLength="120.375" fill="#000000" fill-opacity="1" stroke="none" xml:space="preserve" x="1.5" y="11" font-family="Nimbus Sans L" font-size="10" font-weight="400" font-style="normal">Abgelaufene Zeit im Zyklus</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="DriveSimV9:5217#out:1">
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,520,115)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+          </g>
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M440,115 L512,115"/>
+          </g>
+        </g>
+      </g>
+      <g id="DriveSimV9:5219#out:1">
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M150,80 L180,80"/>
+          </g>
+        </g>
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,235,115)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+          </g>
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M180,80 L180,115 L227,115"/>
+          </g>
+        </g>
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,240,65)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+          </g>
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M180,80 L180,65 L232,65"/>
+          </g>
+        </g>
+        <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,180,80)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+          <path vector-effect="none" fill-rule="evenodd" d="M2,0 C2,1.10457 1.10457,2 0,2 C-1.10457,2 -2,1.10457 -2,0 C-2,-1.10457 -1.10457,-2 0,-2 C1.10457,-2 2,-1.10457 2,0 z "/>
+        </g>
+      </g>
+      <g id="DriveSimV9:5241#out:1">
+        <g data-tags="PathIntersectionsEnabledTag">
+          <g fill="#000000" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,410,115)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="nonzero" d="M0,0 L-8,-4 L-8,4 L0,0z "/>
+          </g>
+          <g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="2" transform="matrix(1,0,0,1,0,0)" font-family="Ubuntu" font-size="12" font-weight="400" font-style="normal">
+            <path vector-effect="none" fill-rule="evenodd" d="M325,115 L402,115"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
