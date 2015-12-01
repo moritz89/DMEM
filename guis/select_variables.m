@@ -367,7 +367,7 @@ if(is_experiment_mode(handles))
     experimentRunManager.AddExperimentRun(experimentRun);
 end
 
-function virtuell_hardware_variant_popupmenu_CreateFcn(hObject, eventdata, handles)
+function hardware_variant_popupmenu_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject,'BackgroundColor'), get(0,'defaultUicontrolBackgroundColor'))
     set(hObject,'BackgroundColor','white');
 end
@@ -376,7 +376,7 @@ global variantManager;
 set(hObject, 'String', list);
 set(hObject, 'Value', mode);
 
-function virtuell_hardware_variant_popupmenu_Callback(hObject, eventdata, handles)
+function hardware_variant_popupmenu_Callback(hObject, eventdata, handles)
 items = get(hObject, 'String');
 index_selected = get(hObject, 'Value');
 item_selected = items{index_selected};
@@ -2268,7 +2268,7 @@ update_hardware_component_popupmenus(handles, eventdata)
 
 function update_variant_popupmenus(handles, eventdata)
 hardware_i_o_variant_popupmenu_CreateFcn(handles.hardware_i_o_variant_popupmenu, eventdata, handles)
-virtuell_hardware_variant_popupmenu_CreateFcn(handles.virtuell_hardware_variant_popupmenu, eventdata, handles)
+hardware_variant_popupmenu_CreateFcn(handles.hardware_variant_popupmenu, eventdata, handles)
 drive_sim_variant_popupmenu_CreateFcn(handles.drive_sim_variant_popupmenu, eventdata, handles)
 ems_variant_popupmenu_CreateFcn(handles.ems_variant_popupmenu, eventdata, handles)
 atm_1_variant_popupmenu_CreateFcn(handles.atm_1_variant_popupmenu, eventdata, handles)

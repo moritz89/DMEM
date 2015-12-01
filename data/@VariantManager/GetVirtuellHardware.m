@@ -4,12 +4,12 @@ function [ list, mode ] = GetVirtuellHardware(obj)
 
 list = {'Null'};
 
-variantFields = fieldnames(obj.Variants.VirtuellHardware);
+variantFields = fieldnames(obj.Variants.Hardware);
 for i = variantFields'
     list = [list i{:}];
 end
 
-mode = evalin('base', 'VirtuellHardwareMode;') + 1;
+mode = evalin('base', 'HardwareMode;') + 1;
 
 end
 

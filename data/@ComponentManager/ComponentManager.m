@@ -120,7 +120,7 @@ methods
             obj = CreateComponentIfEmpty(obj, i{:}, 'Atm', 1);
         end
         % Check Last
-        [list, ~] = variantManager.GetLast();
+        [list, ~] = variantManager.GetLast(1);
         for i = list
             obj = CreateComponentIfEmpty(obj, i{:}, 'Last', 1);
         end
@@ -131,7 +131,7 @@ methods
             obj = CreateComponentIfEmpty(obj, i{:}, 'Eq', 1);
         end
         % Check Gsq
-        [list, ~] = variantManager.GetGsq();
+        [list, ~] = variantManager.GetGsq(1);
         for i = list
             obj = CreateComponentIfEmpty(obj, i{:}, 'Gsq', 1);
         end

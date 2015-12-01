@@ -85,7 +85,7 @@ for i = 1:obj.VariantsInfo.AtmLastAnzahl
     % Create Hardware Interface variants
     for j = fieldnames(obj.Variants.Atm.Virtuell)'
         mode = obj.Variants.Atm.Virtuell.(j{:});
-        evalString = [name 'Virtual' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalString = [name 'Virtuell' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
         evalin('base', evalString);
     end
 end
@@ -96,7 +96,7 @@ for i = 1:obj.VariantsInfo.EqAnzahl
     obj.InitHardwareVariant(name);
     for j = fieldnames(obj.Variants.Eq.Virtuell)'
         mode = obj.Variants.Eq.Virtuell.(j{:});
-        evalString = [name 'Virtual' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalString = [name 'Virtuell' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
         evalin('base', evalString);
     end 
 end

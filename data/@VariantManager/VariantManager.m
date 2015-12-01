@@ -36,16 +36,42 @@ methods
     [list, mode] = GetVariantList(obj, type, slot)
     
     function [list, mode] = GetAtm(obj, slot)
-        
+        list = {'Null'};
+        mode = 1;
     end
     %[list, mode] = GetAtm(obj, slot)
     [list, mode] = GetDriveSim(obj)
     [list, mode] = GetEms(obj)
-    [list, mode] = GetEq(obj, slot)
-    [list, mode] = GetGsq(obj)
+    function [list, mode] = GetEq(obj, slot)
+        list = {'Null'};
+        mode = 1;
+    end
+    %[list, mode] = GetEq(obj, slot)
+    
+    function [list, mode] = GetGsq(obj, slot)
+        list = {'Null'};
+        mode = 1;
+    end
+    %[list, mode] = GetGsq(obj)
     [list, mode] = GetHardwareIo(obj)
-    [list, mode] = GetLast(obj)
-    [list, mode] = GetVirtuellHardware(obj)
+    
+    function [list, mode] = GetLast(obj, slot)
+        list = {'Null'};
+        mode = 1; 
+    end
+    %[list, mode] = GetLast(obj)
+    
+    function [list, mode] = GetHardware(obj)
+        list = {'Null'};
+        
+        variantFields = fieldnames(obj.Variants.Hardware);
+        for i = variantFields'
+            list = [list i{:}];
+        end
+        
+        mode = evalin('base', 'HardwareMode;') + 1;
+    end
+    %[list, mode] = GetVirtuellHardware(obj)
     
     % Sets the selected variant as active. Uses the prefixed subType to
     % filter. All set functions decode the output of the corresponding get

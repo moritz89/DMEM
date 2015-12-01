@@ -17,17 +17,17 @@ Ems = struct('M2Eq5', 1);
 
 % The value denotes the order used for the mux ports in the VirtuellHardware(De)Mux
 % blocks. The individual blocks only hava a true or false variant
-AtmReal = struct('Sample', 1, 'Sample2', 2);
-LastReal = struct('Sample', 1);
-EqReal = struct('Sample', 1, 'Sample2', 2);
-GsqReal = struct('Sample', 1);
+AtmReal = struct('DcMotor', 1, 'AcMotor', 2);
+LastReal = struct('SyncMotor', 1);
+EqReal = struct('LemonBat', 1, 'BunnyBat', 2);
+GsqReal = struct('HighVolt', 1);
 
 % The value denotes the mode for selection in the Virtuell AtmLast /
 % Energiequelle (Eq) Interfaces. The value is incremented with each
 % variant. The Last and Gsq structs are only placeholders.
-AtmVirtuell = struct('Sample', 2, 'SampleFast', 3);
+AtmVirtuell = struct('MadRev', 1, 'WildRev', 2);
 LastVirtuell = struct();
-EqVirtuell = struct('Sample', 2);
+EqVirtuell = struct('LiPo', 1);
 GsqVirtuell = struct();
 
 Gsq = struct('Real', GsqReal, 'Virtuell', GsqVirtuell);
