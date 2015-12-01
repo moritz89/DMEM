@@ -16,12 +16,6 @@ properties
     VariantsInfo
 end
 
-methods (Static)
-    function [Variants, VariantsInfo] = Config()
-	
-    end
-end
-
 methods
     function obj = VariantManager()
         [obj.Variants, obj.VariantsInfo] = variant_variables();
@@ -41,7 +35,10 @@ methods
     % to be represented by a string
     [list, mode] = GetVariantList(obj, type, slot)
     
-    [list, mode] = GetAtm(obj, slot)
+    function [list, mode] = GetAtm(obj, slot)
+        
+    end
+    %[list, mode] = GetAtm(obj, slot)
     [list, mode] = GetDriveSim(obj)
     [list, mode] = GetEms(obj)
     [list, mode] = GetEq(obj, slot)
@@ -118,6 +115,7 @@ methods (Access = private)
 end
 methods (Access = private, Static)
     InitModeAndNull(name)
+    InitHardwareVariant(name)
 end
 
 end

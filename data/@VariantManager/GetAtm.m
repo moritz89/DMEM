@@ -8,7 +8,7 @@ list = {'Null'};
 mode = 1;
 
 % Range check. Exit with error status if it fails
-if(slot < 1 || slot > obj.VariantsInfo.AtmLastVirtuellAnzahl)
+if(slot < 1 || slot > obj.VariantsInfo.AtmLastAnzahl)
     error('Out-of-bounds slot value in GetAtm');
 end
 
@@ -22,9 +22,9 @@ for i = {'Real', 'Virtuell'}
 end
 
 % A virtuell or null Atm is acitve
-if(evalin('base', ['AtmLastVirtuell' num2str(slot) 'Mux']) == 1)
+if(evalin('base', ['AtmLast' num2str(slot) 'Mode']) == 1)
     % The null Atm is active
-    if(evalin('base', ['AtmLastVirtuell' num2str(slot) 'Mode']) == 0)
+    if(evalin('base', ['AtmLast' num2str(slot) 'Mode']) == 0)
         mode = 1;
         
     % A virtuell Atm is active

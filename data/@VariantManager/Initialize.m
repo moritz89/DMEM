@@ -10,19 +10,11 @@ function Initialize(obj)
 % Top-Level Blocks
 %------------------
 
-% Initialize HardwareIo Variants
-name = 'HardwareIo';
+% Initialize Hardware Variants
+name = 'Hardware';
 obj.InitModeAndNull(name);
-for i = fieldnames(obj.Variants.HardwareIo)'
-    mode = obj.Variants.HardwareIo.(i{:});
-    evalString = [name i{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
-    evalin('base', evalString);
-end
-% Initialize VirtuellHardware Variants
-name = 'VirtuellHardware';
-obj.InitModeAndNull(name);
-for i = fieldnames(obj.Variants.VirtuellHardware)'
-    mode = obj.Variants.VirtuellHardware.(i{:});
+for i = fieldnames(obj.Variants.Hardware)'
+    mode = obj.Variants.Hardware.(i{:});
     evalString = [name i{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
     evalin('base', evalString);
 end
@@ -55,6 +47,11 @@ for i = fieldnames(obj.Variants.Gsq.Real)'
     evalin('base', evalString);
 end
 % Initialize Real Antriebsmaschine (Atm) Variants
+for i = 1:obj.VariantsInfo.AtmLastAnzahl
+    name = ['AtmLastReal' num2str(i)];
+    obj.InitModeAndNull(name);
+    
+    
 for i = fieldnames(obj.Variants.Atm.Real)'
     obj.InitModeAndNull(['AtmReal' i{:}]);
     name = ['AtmReal' i{:}];
@@ -77,31 +74,29 @@ for i = fieldnames(obj.Variants.Eq.Real)'
 end
 
 %--------------------------
-% Virtuell Hardware Blocks
+% Hardware Blocks
 %--------------------------
 
-% Initialize Virtuell AtmLast (Antriebs-/Lastmaschine) Variants, Mode, Mux
-for i = 1:obj.VariantsInfo.AtmLastVirtuellAnzahl
-    name = ['AtmLastVirtuell' num2str(i)];
-    obj.InitModeAndNull(name);
-    evalString = [name 'Mux = 1;'];
-    evalin('base', evalString);
+% Initialize AtmLast (Antriebs-/Lastmaschine) Variants, Real interface, Mode
+for i = 1:obj.VariantsInfo.AtmLastAnzahl
+    % Create Null variants
+    name = ['AtmLast' num2str(i)];
+    obj.InitHardwareVariant(name);
+    % Create Hardware Interface variants
     for j = fieldnames(obj.Variants.Atm.Virtuell)'
         mode = obj.Variants.Atm.Virtuell.(j{:});
-        evalString = [name j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalString = [name 'Virtual' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
         evalin('base', evalString);
     end
 end
 
 % Initialize Virtuell EnergieQuelle (Eq) Variants, Mode, Mux
-for i = 1:obj.VariantsInfo.EqVirtuellAnzahl
-    name = ['EqVirtuell' num2str(i)];
-    obj.InitModeAndNull(name);
-    evalString = [name 'Mux = 1;'];
-    evalin('base', evalString);
+for i = 1:obj.VariantsInfo.EqAnzahl
+    name = ['Eq' num2str(i)];
+    obj.InitHardwareVariant(name);
     for j = fieldnames(obj.Variants.Eq.Virtuell)'
         mode = obj.Variants.Eq.Virtuell.(j{:});
-        evalString = [name j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalString = [name 'Virtual' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
         evalin('base', evalString);
     end 
 end
