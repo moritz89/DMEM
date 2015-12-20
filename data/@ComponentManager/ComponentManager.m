@@ -262,8 +262,8 @@ methods
         noEq = isempty(fieldnames(obj.Eq));
         noGsq = isempty(fieldnames(obj.Gsq));
         if(noAuto && noStrecke && noEms && noAtm && noLast && noEq && noGsq)
-            warning(['No Components loaded by ComponentManager. ' ...
-                'Searched in: ' componentsPath]);
+            fprintf(['No Components loaded by ComponentManager. \n\t' ...
+                'Searched in: ' componentsPath '\n']);
         end
     end
     

@@ -93,8 +93,8 @@ methods
         end
         end
         if(isempty(fieldnames(obj.ExperimentRuns)))
-            warning(['No ExperimentRuns loaded by ExperimentRunManager. ' ...
-                'Searched in: ' experimentRunsPath]);
+            fprintf(['No ExperimentRuns loaded by ExperimentRunManager. \n\t' ...
+                'Searched in: ' experimentRunsPath '\n']);
         end
     end
     
