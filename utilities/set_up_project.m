@@ -36,7 +36,8 @@ end
 
 %% Load workspace variables
 DriveSimMode = 1;           % V1
-HardwareIoMode = 1;         % Sample
+HardwareControlMode = 1;    % Sample
+HardwareMode = 1;           % M2Eq5
 EmsMode = 1;                % M2Eq5
 VirtuellHardwareMode = 1;   % M2Eq5
 AtmLastVirtuell1Mode = 1;   % AtmLastSimple
