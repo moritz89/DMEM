@@ -93,7 +93,7 @@ for i = 1:obj.VariantsInfo.AtmLastAnzahl
     % Create Real Hardware Interface variants
     for j = fieldnames(obj.Variants.Atm.Real)'
         mode = obj.Variants.Atm.Real.(j{:});
-        evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(-mode) ''');'];
         evalin('base', evalString);
     end
 end
@@ -106,7 +106,7 @@ for i = 1:obj.VariantsInfo.AtmLastAnzahl
     % Create Real Hardware Interface variants
     for j = fieldnames(obj.Variants.Last.Real)'
         mode = obj.Variants.Last.Real.(j{:});
-        evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(-mode) ''');'];
         evalin('base', evalString);
     end
 end
@@ -123,6 +123,15 @@ for i = 1:obj.VariantsInfo.EqAnzahl
     end
 end
 
+% Initialize Gsq (Gleichstromquelle) Variants and Mode
+name = 'Gsq';
+obj.InitModeAndNull(name);
+for j = fieldnames(obj.Variants.Gsq.Real)'
+    mode = obj.Variants.Gsq.Real.(j{:});
+    evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(-mode) ''');'];
+    evalin('base', evalString);
+end
+    
 %--------------------------
 % Virtuell Hardware Blocks
 %--------------------------
