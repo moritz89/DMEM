@@ -35,13 +35,6 @@ for i=1:numel(includePathes)
 end
 
 %% Load workspace variables
-DriveSimMode = 1;           % V1
-HardwareControlMode = 1;    % Sample
-HardwareMode = 1;           % M2Eq5
-EmsMode = 1;                % M2Eq5
-VirtuellHardwareMode = 1;   % M2Eq5
-AtmLastVirtuell1Mode = 1;   % AtmLastSimple
-
 % Load buses
 fprintf('Loading buses...\n');
 [variables, fileName] = bus_variables;
@@ -67,6 +60,13 @@ componentManager = ComponentManager();
 fprintf('Loading experiments and runs...\n');
 global experimentRunManager;
 experimentRunManager = ExperimentRunManager();
+
+DriveSimMode = 1;           % V1
+HardwareControlMode = 1;    % Sample
+HardwareMode = 1;           % M2Eq5
+EmsMode = 1;                % M2Eq5
+VirtuellHardwareMode = 1;   % M2Eq5
+AtmLastVirtuell1Mode = 1;   % AtmLastSimple
 
 %% Cleanup script variables
 clear ans fileName i includePathes variables cacheFolder projectRoot

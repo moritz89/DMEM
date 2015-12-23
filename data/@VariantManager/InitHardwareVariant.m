@@ -13,7 +13,7 @@ evalin('base', evalString);
 evalString = [name 'NullVar = Simulink.Variant(''' name 'Mode == 0'');'];
 evalin('base', evalString);
 
-% Create Hardware Interface Variant
+% Create Real Hardware Interface Variant
 evalString = [name 'RealVar = Simulink.Variant(''' name 'Mode == -1'');'];
 evalin('base', evalString);
 end

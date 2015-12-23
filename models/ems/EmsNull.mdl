@@ -1,26 +1,26 @@
 Model {
-  Name			  "EmsUnbesetzt"
-  Version		  8.4
+  Name			  "EmsNull"
+  Version		  8.5
   MdlSubVersion		  0
   SavedCharacterEncoding  "windows-1252"
   GraphicalInterface {
     NumRootInports	    2
     Inport {
-      Name		      "HARDWARE_INPUT_BUS_DCI"
+      Name		      "Hardware Input DCI"
       BusObject		      "HARDWARE_INPUT_BUS"
     }
     Inport {
-      Name		      "HARDWARE_OUTPUT_BUS"
+      Name		      "Hardware Output"
       BusObject		      "HARDWARE_OUTPUT_BUS"
     }
     NumRootOutports	    1
     Outport {
-      Name		      "HARDWARE_INPUT_BUS_DCO"
+      Name		      "Hardware Input DCO"
       BusObject		      "HARDWARE_INPUT_BUS"
       BusOutputAsStruct	      "on"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.17"
+    ComputedModelVersion    "1.18"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -28,7 +28,7 @@ Model {
   "bdroot); catch fprintf('Error in PostLoadFcn (dsrtsu_mdlpostloadfcn) for model \"%s\":\\n %s\\n', bdroot, lasterr); "
   "end, end, \n"
   ScopeRefreshTime	  0.035000
-  OverrideScopeRefreshTime on
+  OverrideScopeRefreshTime off
   DisableAllScopes	  off
   DataTypeOverride	  "UseLocalSettings"
   DataTypeOverrideAppliesTo "AllNumericTypes"
@@ -46,7 +46,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [308.0, 24.0, 1273.0, 1027.0]
+      Location		      [308.0, 0.0, 1273.0, 1050.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -70,7 +70,7 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1217.0, 836.0]
+	Extents			[1237.0, 882.0]
 	ZoomFactor		[1.25]
 	Offset			[0.0, 0.0]
       }
@@ -84,9 +84,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "moritz"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Tue Jan 27 16:19:53 2015"
-  RTWModifiedTimeStamp	  344276390
-  ModelVersionFormat	  "1.%<AutoIncrement:17>"
+  LastModifiedDate	  "Mon Dec 21 10:49:58 2015"
+  RTWModifiedTimeStamp	  372595789
+  ModelVersionFormat	  "1.%<AutoIncrement:18>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -186,7 +186,6 @@ Model {
   ExtModeSkipDownloadWhenConnect off
   ExtModeLogAll		  on
   ExtModeAutoUpdateStatusClock on
-  BufferReuse		  on
   ShowModelReferenceBlockVersion off
   ShowModelReferenceBlockIO off
   Array {
@@ -194,7 +193,7 @@ Model {
     Dimension		    1
     Simulink.ConfigSetRef {
       $ObjectID		      7
-      Version		      "1.14.3"
+      Version		      "1.15.0"
       Name		      "Reference"
       DDName		      ""
       WSVarName		      "SIMULATION_CONFIGURATION"
@@ -308,8 +307,8 @@ Model {
     }
   }
   System {
-    Name		    "EmsUnbesetzt"
-    Location		    [308, 24, 1581, 1051]
+    Name		    "EmsNull"
+    Location		    [308, 0, 1581, 1050]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -326,7 +325,7 @@ Model {
     SIDHighWatermark	    "76"
     Block {
       BlockType		      Inport
-      Name		      "HARDWARE_INPUT_BUS_DCI"
+      Name		      "Hardware Input DCI"
       SID		      "1"
       Position		      [160, 43, 190, 57]
       ZOrder		      -1
@@ -335,7 +334,7 @@ Model {
     }
     Block {
       BlockType		      Inport
-      Name		      "HARDWARE_OUTPUT_BUS"
+      Name		      "Hardware Output"
       SID		      "3"
       Position		      [160, 78, 190, 92]
       ZOrder		      -1
@@ -352,7 +351,7 @@ Model {
     }
     Block {
       BlockType		      Outport
-      Name		      "HARDWARE_INPUT_BUS_DCO"
+      Name		      "Hardware Input DCO"
       SID		      "2"
       Position		      [735, 43, 765, 57]
       ZOrder		      -26
@@ -362,16 +361,16 @@ Model {
     }
     Line {
       ZOrder		      9
-      SrcBlock		      "HARDWARE_OUTPUT_BUS"
+      SrcBlock		      "Hardware Output"
       SrcPort		      1
       DstBlock		      "Terminator"
       DstPort		      1
     }
     Line {
       ZOrder		      7
-      SrcBlock		      "HARDWARE_INPUT_BUS_DCI"
+      SrcBlock		      "Hardware Input DCI"
       SrcPort		      1
-      DstBlock		      "HARDWARE_INPUT_BUS_DCO"
+      DstBlock		      "Hardware Input DCO"
       DstPort		      1
     }
   }

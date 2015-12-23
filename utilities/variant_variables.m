@@ -12,6 +12,7 @@ VariantsInfo = struct('AtmLastAnzahl', 2, ...
 
 % Top-Level blocks
 Hardware = struct('M2Eq5', 1);
+HardwareControl = struct('Sample', 1);
 DriveSim = struct('V1', 1);
 Ems = struct('M2Eq5', 1);
 
@@ -19,15 +20,15 @@ Ems = struct('M2Eq5', 1);
 % blocks. The individual blocks only hava a true or false variant
 AtmReal = struct('DcMotor', 1, 'AcMotor', 2);
 LastReal = struct('SyncMotor', 1);
-EqReal = struct('LemonBat', 1, 'BunnyBat', 2);
+EqReal = struct('NiMH', 1, 'ZincAir', 2);
 GsqReal = struct('HighVolt', 1);
 
 % The value denotes the mode for selection in the Virtuell AtmLast /
 % Energiequelle (Eq) Interfaces. The value is incremented with each
 % variant. The Last and Gsq structs are only placeholders.
-AtmVirtuell = struct('MadRev', 1, 'WildRev', 2);
+AtmVirtuell = struct('Simple', 1);
 LastVirtuell = struct();
-EqVirtuell = struct('LiPo', 1);
+EqVirtuell = struct('Simple', 1);
 GsqVirtuell = struct();
 
 Gsq = struct('Real', GsqReal, 'Virtuell', GsqVirtuell);
@@ -36,6 +37,7 @@ Last = struct('Real', LastReal, 'Virtuell', LastVirtuell);
 Eq = struct('Real', EqReal, 'Virtuell', EqVirtuell);
 
 Variants = struct('Hardware', Hardware, ...
+                  'HardwareControl', HardwareControl, ...
                   'DriveSim', DriveSim, ...
                   'Ems', Ems, ...
                   'Gsq', Gsq, 'Atm', Atm, 'Last', Last, 'Eq', Eq);

@@ -18,6 +18,14 @@ for i = fieldnames(obj.Variants.Hardware)'
     evalString = [name i{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
     evalin('base', evalString);
 end
+% Initialize Hardware Control Variants
+name = 'HardwareControl';
+obj.InitModeAndNull(name);
+for i = fieldnames(obj.Variants.HardwareControl)'
+    mode = obj.Variants.HardwareControl.(i{:});
+    evalString = [name i{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+    evalin('base', evalString);
+end
 % Initialize DriveSim Variants
 name = 'DriveSim';
 obj.InitModeAndNull(name);
@@ -39,42 +47,84 @@ end
 % Real Hardware Blocks
 %----------------------
 
-% Initialize Real GleichStromQuelle (Gsq) Variants
-for i = fieldnames(obj.Variants.Gsq.Real)'
-    obj.InitModeAndNull(['GsqReal' i{:}]);
-    name = ['GsqReal' i{:}];
-    evalString = [name 'TrueVar = Simulink.Variant(''' name 'Mode == 1'');'];
-    evalin('base', evalString);
-end
-% Initialize Real Antriebsmaschine (Atm) Variants
+% % Initialize Real GleichStromQuelle (Gsq) Variants
+% for i = fieldnames(obj.Variants.Gsq.Real)'
+%     obj.InitModeAndNull(['GsqReal' i{:}]);
+%     name = ['GsqReal' i{:}];
+%     evalString = [name 'TrueVar = Simulink.Variant(''' name 'Mode == 1'');'];
+%     evalin('base', evalString);
+% end
+% % Initialize Real Antriebsmaschine (Atm) Variants
+% for i = 1:obj.VariantsInfo.AtmLastAnzahl
+%     name = ['AtmLastReal' num2str(i)];
+%     obj.InitModeAndNull(name);
+%     
+%     
+% for i = fieldnames(obj.Variants.Atm.Real)'
+%     obj.InitModeAndNull(['AtmReal' i{:}]);
+%     name = ['AtmReal' i{:}];
+%     evalString = [name 'Var = Simulink.Variant(''' name 'Mode == 1'');'];
+%     evalin('base', evalString);
+% end
+% % Initialize Real Lastmaschine (Last) Variants
+% for i = fieldnames(obj.Variants.Last.Real)'
+%     obj.InitModeAndNull(['LastReal' i{:}]);
+%     name = ['LastReal' i{:}];
+%     evalString = [name 'TrueVar = Simulink.Variant(''' name 'Mode == 1'');'];
+%     evalin('base', evalString);
+% end
+% % Initialize Real Energiequelle (Eq) Variants
+% for i = fieldnames(obj.Variants.Eq.Real)'
+%     obj.InitModeAndNull(['EqReal' i{:}]);
+%     name = ['EqReal' i{:}];
+%     evalString = [name 'TrueVar = Simulink.Variant(''' name 'Mode == 1'');'];
+%     evalin('base', evalString);
+% end
+
+%--------------------------
+% Real Hardware Blocks
+%--------------------------
+
+% Initialize Atm (Antriebsmaschine) Variants and Mode
 for i = 1:obj.VariantsInfo.AtmLastAnzahl
-    name = ['AtmLastReal' num2str(i)];
+    % Create Null variants
+    name = ['Atm' num2str(i)];
     obj.InitModeAndNull(name);
-    
-    
-for i = fieldnames(obj.Variants.Atm.Real)'
-    obj.InitModeAndNull(['AtmReal' i{:}]);
-    name = ['AtmReal' i{:}];
-    evalString = [name 'TrueVar = Simulink.Variant(''' name 'Mode == 1'');'];
-    evalin('base', evalString);
+    % Create Real Hardware Interface variants
+    for j = fieldnames(obj.Variants.Atm.Real)'
+        mode = obj.Variants.Atm.Real.(j{:});
+        evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalin('base', evalString);
+    end
 end
-% Initialize Real Lastmaschine (Last) Variants
-for i = fieldnames(obj.Variants.Last.Real)'
-    obj.InitModeAndNull(['LastReal' i{:}]);
-    name = ['LastReal' i{:}];
-    evalString = [name 'TrueVar = Simulink.Variant(''' name 'Mode == 1'');'];
-    evalin('base', evalString);
+
+% Initialize Last (Lastmaschine) Variants and Mode
+for i = 1:obj.VariantsInfo.AtmLastAnzahl
+    % Create Null variants
+    name = ['Last' num2str(i)];
+    obj.InitModeAndNull(name);
+    % Create Real Hardware Interface variants
+    for j = fieldnames(obj.Variants.Last.Real)'
+        mode = obj.Variants.Last.Real.(j{:});
+        evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(mode) ''');'];
+        evalin('base', evalString);
+    end
 end
-% Initialize Real Energiequelle (Eq) Variants
-for i = fieldnames(obj.Variants.Eq.Real)'
-    obj.InitModeAndNull(['EqReal' i{:}]);
-    name = ['EqReal' i{:}];
-    evalString = [name 'TrueVar = Simulink.Variant(''' name 'Mode == 1'');'];
-    evalin('base', evalString);
+
+% Initialize Eq (Energiequelle) Variants and Mode
+for i = 1:obj.VariantsInfo.EqAnzahl
+    % Create Null variants
+    name = ['Eq' num2str(i)];
+    % Create Real Hardware Interface variants
+    for j = fieldnames(obj.Variants.Eq.Real)'
+        mode = obj.Variants.Eq.Real.(j{:});
+        evalString = [name 'Real' j{:} 'Var = Simulink.Variant(''' name 'Mode == ' num2str(-mode) ''');'];
+        evalin('base', evalString);
+    end
 end
 
 %--------------------------
-% Hardware Blocks
+% Virtuell Hardware Blocks
 %--------------------------
 
 % Initialize AtmLast (Antriebs-/Lastmaschine) Variants, Real interface, Mode

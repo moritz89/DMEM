@@ -729,38 +729,21 @@
                         <Label UUID="none"/>
                     </Category>
                 </Info>
-                <File Location="DriveSimV8.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="v8_library">
-                    <File Location="MotorLib.mdl">
-                        <Info>
-                            <Category UUID="FileClassCategory">
-                                <Label UUID="design"/>
-                            </Category>
-                        </Info>
-                    </File>
-                    <DIR_SIGNIFIER Location="1">
-                        <Info/>
-                    </DIR_SIGNIFIER>
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="none"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="DriveSimNull.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
                 <File Location="DriveSimV9.mdl">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="DriveSimNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="DriveSimV1.slx">
                     <Info>
                         <Category UUID="FileClassCategory">
                             <Label UUID="design"/>
@@ -801,67 +784,11 @@
                 <DIR_SIGNIFIER Location="1">
                     <Info/>
                 </DIR_SIGNIFIER>
-                <File Location="LastBimaq.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
                 <Info>
                     <Category UUID="FileClassCategory">
                         <Label UUID="none"/>
                     </Category>
                 </Info>
-                <File Location="AtmBimaq.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="EqHtuc.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="AtmNull.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="EqHzl.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="EqNull.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="GsqNull.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="GsqBimaq.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
                 <File Location="HardwareIoNull.mdl">
                     <Info>
                         <Category UUID="FileClassCategory">
@@ -869,14 +796,70 @@
                         </Category>
                     </Info>
                 </File>
-                <File Location="HardwareIoRti1103.mdl">
+                <File Location="AtmLastNull.slx">
                     <Info>
                         <Category UUID="FileClassCategory">
                             <Label UUID="design"/>
                         </Category>
                     </Info>
                 </File>
-                <File Location="LastNull.mdl">
+                <File Location="AtmNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EqNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AtmLast2Real.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AtmLast1Real.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GsqNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="HardwareControlNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="HardwareM2Eq5.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="HardwareNull.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="LastNull.slx">
                     <Info>
                         <Category UUID="FileClassCategory">
                             <Label UUID="design"/>
@@ -885,57 +868,22 @@
                 </File>
             </File>
             <File Location="virtuell_hardware">
-                <File Location="VirtuellHardwareDemuxM2Eq5.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
                 <DIR_SIGNIFIER Location="1">
                     <Info/>
                 </DIR_SIGNIFIER>
-                <File Location="EqVirtuellNull.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="VirtuellHardwareMuxM2Eq5.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="AtmLastVirtuellNull.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
                 <Info>
                     <Category UUID="FileClassCategory">
                         <Label UUID="none"/>
                     </Category>
                 </Info>
-                <File Location="AtmLastVirtuellSimple.mdl">
+                <File Location="EqVirtuellSimple.slx">
                     <Info>
                         <Category UUID="FileClassCategory">
                             <Label UUID="design"/>
                         </Category>
                     </Info>
                 </File>
-                <File Location="AtmLastVirtuellBimaqTest.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="EqVirtuellSimple.mdl">
+                <File Location="AtmLastVirtuellSimple.slx">
                     <Info>
                         <Category UUID="FileClassCategory">
                             <Label UUID="design"/>
@@ -973,13 +921,6 @@
                         </Category>
                     </Info>
                 </File>
-                <File Location="SaturationCallback.mdl">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
                 <File Location="SaturationCallbackVariable.m">
                     <Info>
                         <Category UUID="FileClassCategory">
@@ -1001,22 +942,15 @@
                         </Category>
                     </Info>
                 </File>
+                <File Location="SaturationCallback.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
             </File>
             <File Location="real_hardware">
-                <File Location="RealHardwareControlNull.slx">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
-                <File Location="RealHardwareNull.slx">
-                    <Info>
-                        <Category UUID="FileClassCategory">
-                            <Label UUID="design"/>
-                        </Category>
-                    </Info>
-                </File>
                 <Info>
                     <Category UUID="FileClassCategory">
                         <Label UUID="none"/>
@@ -1025,6 +959,55 @@
                 <DIR_SIGNIFIER Location="1">
                     <Info/>
                 </DIR_SIGNIFIER>
+                <File Location="HardwareControlSample.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AtmDcMotor.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="AtmAcMotor.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EqRealZincAir.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="EqRealNiMH.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="LastSyncMotor.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
+                <File Location="GsqRealHighVolt.slx">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="design"/>
+                        </Category>
+                    </Info>
+                </File>
             </File>
         </File>
         <File Location="tests">

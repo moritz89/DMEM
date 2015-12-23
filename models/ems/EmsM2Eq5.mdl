@@ -20,7 +20,7 @@ Model {
       BusOutputAsStruct	      "on"
     }
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.25"
+    ComputedModelVersion    "1.26"
     NumModelReferences	    0
     NumTestPointedSignals   0
   }
@@ -46,7 +46,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [139.0, 0.0, 1879.0, 1080.0]
+      Location		      [41.0, 0.0, 1879.0, 1080.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -84,9 +84,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "moritz"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Sat Oct 31 12:23:12 2015"
-  RTWModifiedTimeStamp	  368194219
-  ModelVersionFormat	  "1.%<AutoIncrement:25>"
+  LastModifiedDate	  "Wed Dec 23 16:33:58 2015"
+  RTWModifiedTimeStamp	  372789235
+  ModelVersionFormat	  "1.%<AutoIncrement:26>"
   ConfigurationManager	  "none"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -308,7 +308,7 @@ Model {
   }
   System {
     Name		    "EmsM2Eq5"
-    Location		    [139, 0, 2018, 1080]
+    Location		    [41, 0, 1920, 1080]
     Open		    on
     ModelBrowserVisibility  off
     ModelBrowserWidth	    200
@@ -346,7 +346,7 @@ Model {
       BlockType		      Terminator
       Name		      "Terminator"
       SID		      "80"
-      Position		      [390, 75, 410, 95]
+      Position		      [265, 75, 285, 95]
       ZOrder		      2
     }
     Block {
